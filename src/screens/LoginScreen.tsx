@@ -1,9 +1,9 @@
 import * as React from 'react';
-/* import {Text, View, StyleSheet, Button} from 'react-native'; */
+import { Text, View, StyleSheet, Button } from 'react-native';
 /* import {View, StyleSheet, Button} from 'react-native'; */
 //import {useAuthorization} from '../components/AuthProvider';
-// @ts-ignore
-/* const SignOut = ({navigation}) => {
+
+const SignOut = ({ navigation }: any) => {
   //const {signOut} = useAuthorization();
   function navigateAuth() {
     //signOut();
@@ -14,23 +14,21 @@ import * as React from 'react';
       <Button title="Sign Out" color="#f194ff" onPress={navigateAuth} />
     </View>
   );
-}; */
-// @ts-ignore
-export function LoginScreen (props:any) {
-  //const {status, authToken} = useAuthorization();
-  return (
-    <></>
-  );
 };
 
-{/* <View style={styles.container}>
+export function LoginScreen(props: any) {
+  //const {status, authToken} = useAuthorization();
+  return (
+    <View style={styles.container}>
       <Text style={styles.text}>Account Status: HOLA</Text>
       <View style={styles.actions}>
         <SignOut {...props} />
       </View>
-    </View> */}
+    </View>
+  );
+}
 
-/* const styles = StyleSheet.create({
+const styles = StyleSheet.create({
   container: {
     flex: 1,
     padding: 50,
@@ -51,4 +49,3 @@ export function LoginScreen (props:any) {
     color: 'white',
   },
 });
- */
